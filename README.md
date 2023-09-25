@@ -43,7 +43,7 @@ composer install
 
 
 ### command to run
-php .\artisan serve {source} 
+php .\artisan serve
 
 ### Run the API
 - Data to use (RAW data)
