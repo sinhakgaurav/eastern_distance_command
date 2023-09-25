@@ -14,11 +14,11 @@
 <summary> Steps for Installation and running command </summary>
 
 ### Git clone
-```git clone https://github.com/sinhakgaurav/eastern_distance_command.git
-```
+git clone https://github.com/sinhakgaurav/eastern_distance_command.git
+
 ### install dependency
-```composer install
-```
+composer install
+
 
 ### command to run
 ```
@@ -36,15 +36,15 @@ CSV created will be located as /storage/distance.csv
 <summary>Steps for Installation and running API</summary>
 
 ### Git clone
-```git clone https://github.com/sinhakgaurav/eastern_distance_command.git
-```
+git clone https://github.com/sinhakgaurav/eastern_distance_command.git
+
 ### install dependency
 composer install
 
 
 ### command to run
-```php .\artisan serve {source} 
-```
+php .\artisan serve {source} 
+
 ### Run the API
 - Data to use (RAW data)
 ```
