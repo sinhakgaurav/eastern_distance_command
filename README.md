@@ -11,7 +11,7 @@
 
 <details>
 
-## Steps for Installation and running command
+<summary> Steps for Installation and running command </summary>
 
 ### Git clone
 ```git clone https://github.com/sinhakgaurav/eastern_distance_command.git
@@ -33,7 +33,7 @@ CSV created will be located as /storage/distance.csv
 
 <details>
 
-## Steps for Installation and running API
+<summary>Steps for Installation and running API</summary>
 
 ### Git clone
 ```git clone https://github.com/sinhakgaurav/eastern_distance_command.git
