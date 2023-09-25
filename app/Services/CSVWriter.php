@@ -30,8 +30,8 @@ class CSVWriter implements CSVWriterInterface
             if (count ($destinationArray) < 2) {
                 continue;
             }
-            $csvData[] = [$incremeter, $distance, $destinationArray['name'], $destinationArray['address']];
-
+            $csvData[] = [$incremeter, $distance . " km", $destinationArray['name'], $destinationArray['address']];
+            $incremeter = $incremeter + 1;
         }
 
         $csv->insertAll($csvData);
