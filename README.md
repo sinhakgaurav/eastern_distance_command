@@ -21,11 +21,11 @@ composer install
 
 
 ### command to run
-'''
-php .\artisan calculate:distances {source} 
-example:
+```
+php .\artisan calculate:distances {source} \n
+example:\n
 php .\artisan calculate:distances  "Adchieve HQ - Sint Janssingel 92, 5211 DA 's-Hertogenbosch, The Netherlands"
-'''
+```
 ### storage for the CSV created
 CSV created will be located as /storage/distance.csv
 </details>
@@ -47,7 +47,7 @@ php .\artisan serve {source}
 
 ### Run the API
 - Data to use (RAW data)
-'''
+```
 {
     "source": "Adchieve HQ - Sint Janssingel 92, 5211 DA 's-Hertogenbosch, The Netherlands",
     "destinations": [
@@ -61,9 +61,9 @@ php .\artisan serve {source}
         "Neverland - 5225 Figueroa Mountain Road, Los Olivos, Calif. 93441, USA"
     ]
 }
-'''
+```
 - POST to below URL with the data using Postman or any other tool
-''' http://127.0.0.1:8000/api/calculate-distances '''
+```http://127.0.0.1:8000/api/calculate-distances``` 
 ### storage for the CSV created
 CSV created will be located as /storage/distance.csv
 </details>
